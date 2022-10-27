@@ -1,0 +1,18 @@
+#Turn off the welcome message
+startup_message off
+
+# Disable visual bell
+vbell off
+
+# Set scrollback buffer to 10000
+#huono ajatus, syö muistin
+defscrollback 999999
+
+# Customize the status line
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
+
+
+# "force" screen not to alternate screen
+termcapinfo xterm ti@:te@
+
